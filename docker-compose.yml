@@ -33,7 +33,7 @@ services:
   nginx:
     build: 
       context: .docker/nginx
-    container_name: nginx-node
+    container_name: nginx_node
     tty: true
     networks: 
       - node-network
